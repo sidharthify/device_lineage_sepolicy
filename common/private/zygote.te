@@ -1,1 +1,3 @@
 allow zygote self:capability sys_nice;
+
+get_prop(zygote, droidguard_override_prop)
